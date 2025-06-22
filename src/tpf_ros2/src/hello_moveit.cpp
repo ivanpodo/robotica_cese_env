@@ -73,9 +73,9 @@ int main(int argc, char * argv[])
     geometry_msgs::msg::PoseStamped msg;
     msg.header.frame_id = "base_link";
     msg.header.stamp = node->now(); //     0.22 0.12 0.175 0 0 0 <-- pose RED CILINDER
-    msg.pose.position.x     = 0.5;
-    msg.pose.position.y     = 0.5;
-    msg.pose.position.z     = 0.5;
+    msg.pose.position.x     = 0.22;
+    msg.pose.position.y     = 0.12;
+    msg.pose.position.z     = 0.175;
     msg.pose.orientation.x  = 0.0;
     msg.pose.orientation.y  = 0.0;
     msg.pose.orientation.z  = 0.0;

@@ -58,7 +58,7 @@ def generate_launch_description():
         gazebo_launch,
         moveit_launch,
         TimerAction(
-            period=30.0,
+            period=15.0,
             actions=[hello_moveit_node]
         )
     ])
